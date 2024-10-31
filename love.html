@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: pink;
+        margin: 7px;
+        font-size: 23px;
+    }
+    .container{
+        display: flex;
+        justify-content:space-around;
+
+    }
+    .h{
+        color: rgb(121, 121, 201);
+    }
+
+
+ .first{
+    display: flex;
+    justify-content:space-between;
+
+    margin: 10px;
+    background-color: #f4e2b4;
+    gap: 10vw;
+    padding: 5px;
+ }
+
+.mystery-box {
+    position: relative;
+    width: 20vw;
+    height: 50vh;
+    background-color: #f4e2b4;
+    border: 2px solid #cc3333;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.ribbon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background-color: #cc3333;
+}
+
+.lid {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 40%;
+    background-color: #f4e2b4;
+    border-bottom: 2px solid #cc3333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+
+.box-body {
+    position: relative;
+    top: 40px;
+    height: 60%;
+    background-color: #f4e2b4;
+    border-top: 2px solid #cc3333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question-mark {
+    font-size: 40px;
+    color: #cc3333;
+    font-weight: bold;
+}
+
+.surprise {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #cc3333;
+    font-size: 1.5em;
+    text-align: center;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+}
+.hidden {
+    display: none;
+}
+
+.opened-lid {
+    transform: rotateX(120deg);
+}
+
+.show {
+    display: block;
+}
+
+.another :hover{
+    background-color: pink;
+}
+.two{
+    display: flex;
+    gap: 20vw;
+    background-color: lightcoral;
+}
+.a2,.a4,.a6{
+    display: flex;
+    gap: 20px;
+}
+.hn{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.last2{
+    display: flex;
+    justify-content: space-around;
+}
+</style>
+<body>
+    <nav><h1>Thanku for loving Me ❤ ❤</h1></nav>
+    <div class="container">
+        <div class="box1">
+            <div class="b1"><button><h3>what so special about us</h1></button></div>
+            <div class="b2"> <h2 class="h">click here to know !!</h2></div>
+        </div>
+        <div class="box2">
+            <div class="b3"><button><h3>U know How u look when u smile</h3></button></div>
+            <div class="b4"><h2 class="h">click here to know !!</h2></div>
+        </div>
+        <div class="box3">
+            <div class="b5"><button><h3>How much I LOVE U ❤</h3></button></div>
+            <div class="b6"><h2 class="h">click here to know !!</h2></div>
+        </div>
+    </div>
+    <section class="first">
+        <div class="mystery-box" id="mysteryBox">
+            <div class="ribbon"></div>
+            <div class="lid" id="lid">
+                <div class="question-mark"></div>
+            </div>
+            <div class="box-body">
+                <div class="question-mark h">Touch me to show ur gift</div>
+            </div>
+            <div class="surprise hidden" id="surprise">🎉 Surprise! 🎉</div>
+        </div>
+        <div class="hn">
+            <button><h3 class="e">what i want</button>
+            <div class="yt"></div>
+        </div>
+        <div class="another">
+            <button class="why"><h3>How we hnadle our tough time </h3></button>
+        <div class="hum"></div></div>
+    </section>
+<section class="two">
+    <div class="bo1">
+        <div class="a1"><button class="u"><h3>OUR DISTANCE</h1></button></div>
+        <div class="a2"> <h2 class="hi">click here to know !!</h2></div>
+    </div>
+    <div class="bo2">
+        <div class="a3"><button class="i"><h3>HOW I SEE U</h3></button></div>
+        <div class="a4"><h2 class="hi">click here to know !!</h2></div>
+    </div>
+    <div class="bo3">
+        <div class="a5"><button class="we"><h3>HOW PRETTY U R</h3></button></div>
+        <div class="a6"><h2 class="hi">click here to know !!</h2></div>
+    </div>
+
+
+
+</section>
+<main ><div class="last">
+    <button class="l"><h2 class="la">Humari yaad</h2></button>
+</div>
+<div class="last2">
+    <div class="kch">
+        <div class="re"></div>
+        <div class="te"></div>
+    </div>
+    <div class="kh">
+        <div class="ree"></div>
+        <div class="tee"></div>
+    </div>
+    <div class="kc">
+        <div class="reee"></div>
+        <div class="teee"></div>
+    </div>
+</div>
+</main>
+    <script src="love.js"></script>
+</body>
+</html>
